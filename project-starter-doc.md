@@ -124,7 +124,8 @@ Principles by which we determine if a library is “battle tested”:
   
   
 
-(Todo) add tech stack list link:
+Tech stack list link:
+https://github.com/nfq-frontend/tech-stack-list
 
 ## 5. Folder structure / architecture
 
@@ -303,18 +304,5 @@ Key functionalities of the project should be covered with tests. The code itself
 
 Comments:
 
-  
 
 Good reads section - links
-
-  
-
-More visual
-
--   Discuss: Disagree, focus should be on the content of the doc, not graphs
-    
-
-Arguments why to use framework
-
--   Discuss: There was a standards group dedicated to the question of how important it is to use new frameworks
-
