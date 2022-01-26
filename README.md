@@ -302,7 +302,3 @@ Key functionalities of the project should be covered with tests. The code itself
   
   
 
-Comments:
-
-
-Good reads section - links
