@@ -172,71 +172,69 @@ Common problems that we want to avoid writing CSS:
 
 To optimize CSS performance and avoid issues like specificity there are a few approaches that could be chosen:
 
--   Utility based (tailwind)
-    
+####   Utility based (tailwind)
 
--   When components don’t have to be isolated
-    
--   When you don’t have a big amount of snow flake (unique) components
-    
--   Advantages:
-    
+  -   When components don’t have to be isolated
 
-    -   Clear and consistent naming
+  -   When you don’t have a big amount of snow flake (unique) components
 
-    -   “Tree Shaking”
-
-    -   Single source of truth for variables in config (e.g. spacing)
-    
-
--   Disadvantages:
-    
-
-    -   Lack of flexibility for components that require complex styling
-
-    -   Might be hard to read for some developers
+  -   Advantages:
 
 
-    -   Isolation based (CSS modules, styled-components)
+      -   Clear and consistent naming
+
+      -   “Tree Shaking”
+
+      -   Single source of truth for variables in config (e.g. spacing)
 
 
-    -   To have a collection of reusable components independent from any other library (e.g. tailwind)
-    
--   Disadvantages:
-    
-
-    -   Hard to maintain consistent proportions and spacing throughout components without having a central config
-
-    -   File bundle size grows with more components because of the need of rewriting the same styles
+  -   Disadvantages:
 
 
--   Advantages:
-    
+      -   Lack of flexibility for components that require complex styling
 
-    -   Flexibility to implement custom styling that can not be archived by using utilities
-
-    -   Good for creating component libraries
+      -   Might be hard to read for some developers
 
 
-    -   Naming pattern based (BEM, OOCSS)
+####   Isolation based (CSS modules, styled-components)
+  
+  -   To have a collection of reusable components independent from any other library (e.g. tailwind)
+
+  -   Advantages:
 
 
-    -   Works well when you don’t have ability to adjust the FE build to add libraries like Tailwind or CSS modules
+      -   Flexibility to implement custom styling that can not be archived by using utilities
 
--   Advantages:
-    
-
-    -   Avoids CSS conflicts by having unique contextual class names
-
-    -   Better than pure CSS without any scalable solution
+      -   Good for creating component libraries
 
 
--   Disadvantages:
-    
 
-    -   Hard to enforce a chosen naming convention, also there’s a log of disagreeing within the same convention
+  -   Disadvantages:
 
-    -   Hard to read for developers who are not familiar with the convention (might be excessively long)
+
+      -   Hard to maintain consistent proportions and spacing throughout components without having a central config
+
+      -   File bundle size grows with more components because of the need of rewriting the same styles
+
+
+####   Naming pattern based (BEM, OOCSS)
+
+  -   Works well when you don’t have ability to adjust the FE build to add libraries like Tailwind or CSS modules
+
+  -   Advantages:
+
+
+      -   Avoids CSS conflicts by having unique contextual class names
+
+      -   Better than pure CSS without any scalable solution
+
+
+  -   Disadvantages:
+
+
+      -   Hard to enforce a chosen naming convention, also there’s a log of disagreeing within the same convention
+
+      -   Hard to read for developers who are not familiar with the convention (might be excessively long)
 
 
 ## 7. Global state
