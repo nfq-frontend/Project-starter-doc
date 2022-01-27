@@ -36,35 +36,35 @@ When choosing a framework we need to consider:
 -   Consider using SPA if:
     
 
--   Don’t need public indexed pages for web crawler
-    
--   Project examples: Saas tools, internal admin systems
-    
--   Technology examples: Create React App CLI
+    -   Don’t need public indexed pages for web crawler
+
+    -   Project examples: Saas tools, internal admin systems
+
+    -   Technology examples: Create React App CLI
     
 
 -   Consider using SSR if:
     
 
--   If you need public indexed pages for web crawler
-    
--   If client has ability to pay for node.js server infrastructure
-    
--   Project examples: Marketplaces, Ecommerce shops
-    
--   Technology examples: Next.js SSR mode
+    -   If you need public indexed pages for web crawler
+
+    -   If client has ability to pay for node.js server infrastructure
+
+    -   Project examples: Marketplaces, Ecommerce shops
+
+    -   Technology examples: Next.js SSR mode
     
 
 -   Consider using SSG if:
     
 
--   If you need public indexed pages for web crawler
-    
--   If you don’t have dynamic pages or content
-    
--   Project examples: Blogs, Product landing pages
-    
--   Technology examples: Next.js SSG mode / Gatsby
+    -   If you need public indexed pages for web crawler
+
+    -   If you don’t have dynamic pages or content
+
+    -   Project examples: Blogs, Product landing pages
+
+    -   Technology examples: Next.js SSG mode / Gatsby
     
 
   
@@ -72,10 +72,10 @@ When choosing a framework we need to consider:
 -   Long term maintenance
     
 
--   Custom Webpack/Parcel/Gulp/Grunt build will need internal team maintenance down the road when sub dependencies update (like typescript, babel, etc)
-    
--   Using frameworks like Next.js will solve most of the breaking changes by the updates in the dependencies. Meaning that you’ll only need to update Next.js version and you will have a broad community catching all the bugs and issues in Github issues page
-    
+    -   Custom Webpack/Parcel/Gulp/Grunt build will need internal team maintenance down the road when sub dependencies update (like typescript, babel, etc)
+
+    -   Using frameworks like Next.js will solve most of the breaking changes by the updates in the dependencies. Meaning that you’ll only need to update Next.js version and you will have a broad community catching all the bugs and issues in Github issues page
+
 
   
   
@@ -182,62 +182,62 @@ To optimize CSS performance and avoid issues like specificity there are a few ap
 -   Advantages:
     
 
--   Clear and consistent naming
-    
--   “Tree Shaking”
-    
--   Single source of truth for variables in config (e.g. spacing)
+    -   Clear and consistent naming
+
+    -   “Tree Shaking”
+
+    -   Single source of truth for variables in config (e.g. spacing)
     
 
 -   Disadvantages:
     
 
--   Lack of flexibility for components that require complex styling
-    
--   Might be hard to read for some developers
-    
+    -   Lack of flexibility for components that require complex styling
 
--   Isolation based (CSS modules, styled-components)
-    
+    -   Might be hard to read for some developers
 
--   To have a collection of reusable components independent from any other library (e.g. tailwind)
+
+    -   Isolation based (CSS modules, styled-components)
+
+
+    -   To have a collection of reusable components independent from any other library (e.g. tailwind)
     
 -   Disadvantages:
     
 
--   Hard to maintain consistent proportions and spacing throughout components without having a central config
-    
--   File bundle size grows with more components because of the need of rewriting the same styles
-    
+    -   Hard to maintain consistent proportions and spacing throughout components without having a central config
+
+    -   File bundle size grows with more components because of the need of rewriting the same styles
+
 
 -   Advantages:
     
 
--   Flexibility to implement custom styling that can not be archived by using utilities
-    
--   Good for creating component libraries
-    
+    -   Flexibility to implement custom styling that can not be archived by using utilities
 
--   Naming pattern based (BEM, OOCSS)
-    
+    -   Good for creating component libraries
 
--   Works well when you don’t have ability to adjust the FE build to add libraries like Tailwind or CSS modules
-    
+
+    -   Naming pattern based (BEM, OOCSS)
+
+
+    -   Works well when you don’t have ability to adjust the FE build to add libraries like Tailwind or CSS modules
+
 -   Advantages:
     
 
--   Avoids CSS conflicts by having unique contextual class names
-    
--   Better than pure CSS without any scalable solution
-    
+    -   Avoids CSS conflicts by having unique contextual class names
+
+    -   Better than pure CSS without any scalable solution
+
 
 -   Disadvantages:
     
 
--   Hard to enforce a chosen naming convention, also there’s a log of disagreeing within the same convention
-    
--   Hard to read for developers who are not familiar with the convention (might be excessively long)
-    
+    -   Hard to enforce a chosen naming convention, also there’s a log of disagreeing within the same convention
+
+    -   Hard to read for developers who are not familiar with the convention (might be excessively long)
+
 
 ## 7. Global state
 
@@ -278,26 +278,26 @@ Key functionalities of the project should be covered with tests. The code itself
 -   E2E tests are good for:
     
 
--   Simulating your application in different screen sizes
-    
--   Going through the business critical user flow
-    
--   See your application from the end user eyes as opposed to just testing the code
-    
--   Creating integration tests to make sure there no untested scenarios left by unit tests
-    
--   Technology examples: Cypress, Testcafe
+    -   Simulating your application in different screen sizes
+
+    -   Going through the business critical user flow
+
+    -   See your application from the end user eyes as opposed to just testing the code
+
+    -   Creating integration tests to make sure there no untested scenarios left by unit tests
+
+    -   Technology examples: Cypress, Testcafe
     
 
 -   Unit tests are good for:
     
 
--   Good for testing algorithms, complex utilities
-    
--   When used with TDD can help to write code easier in certain scenarios
-    
--   Technology examples: Jest, Enzyme, React testing library
-    
+    -   Good for testing algorithms, complex utilities
+
+    -   When used with TDD can help to write code easier in certain scenarios
+
+    -   Technology examples: Jest, Enzyme, React testing library
+
 
   
   
