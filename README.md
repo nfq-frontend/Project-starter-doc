@@ -25,9 +25,9 @@ When choosing a framework we need to consider:
 -   Amount of developers who are familiar with the framework within the company in case the project would need support
     
 -   Ecosystem size for libraries supporting the framework
-    
 
--   F.e Global state managers
+
+    -   F.e Global state managers
 
 ## 2. Choosing the build set for framework
 
