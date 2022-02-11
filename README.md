@@ -266,10 +266,6 @@ Is it a typical CRUD application?
 
 Key functionalities of the project should be covered with tests. The code itself should be written in a way that’s easy to test.
 
-  
-
--   Before installing a global state library refer to step 4 Principles by which we determine if a library is “battle tested”
-    
 
   
 
