@@ -116,6 +116,7 @@ Principles by which we determine if a library is “battle tested”:
 -   Active open source community
 
 -   Make sure that package has correct license.
+    -   https://www.npmjs.com/package/license-checker-ci?activeTab=readme
     
 -   Preferably choose packages and libraries that are recommended and supported by the core framework you’re using. If the core framework has the functionality you need inbuilt don’t go for third party libraries in case you don’t have to
     
