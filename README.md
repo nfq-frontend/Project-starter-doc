@@ -139,7 +139,7 @@ Should translate business requirements into code architecture. Since the project
 -   Just by looking at the folder names and filenames a new developer should be able to say what this application does
     
 
--   Naming has to be consistent across business requirements, FE codebase and BE codebase to
+-   Naming has to be consistent across business requirements (design sketches), FE codebase and BE codebase (API response/payload property names) too
     
 
 -   To ensure clarity across the team and save time for needless communication/searching
