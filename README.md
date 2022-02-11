@@ -118,7 +118,7 @@ Principles by which we determine if a library is “battle tested”:
 -   Preferably choose packages and libraries that are recommended and supported by the core framework you’re using. If the core framework has the functionality you need inbuilt don’t go for third party libraries in case you don’t have to
     
 
--   Example: Internationalized Routing for next.js [https://nextjs.org/docs/advanced-features/i18n-routing](https://nextjs.org/docs/advanced-features/i18n-routing) (before you had to use 3rd party libraries to archive this type of routing)
+    -   Example: Internationalized Routing for next.js [https://nextjs.org/docs/advanced-features/i18n-routing](https://nextjs.org/docs/advanced-features/i18n-routing) (before you had to use 3rd party libraries to archive this type of routing)
     
 
   
